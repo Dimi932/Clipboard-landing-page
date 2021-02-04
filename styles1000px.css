@@ -1,0 +1,96 @@
+
+@media (max-width:1000px) {
+  .background {
+    background-size:auto;
+  }
+  .top-box {
+    width: 60%;
+  }
+  .first-box {
+    width: 60%;
+  }
+  /* ----- Second Box ____*/
+  .second-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin:0;
+  }
+  .scnbx-grid {
+    width: 100%;
+    margin: 0;
+  }
+  .scnbx-grid * {
+    text-align: center;
+    margin-left: 50px;
+  }
+  .scnbx-grid  p {
+    width: 50%;
+    margin: 0 25%;
+    }
+/* ---------Third Box -----*/
+.PC-img {
+  width: 600px;
+}
+/* --------Fourth Box -----*/
+.section2 {
+  grid-template-columns: none;
+  grid-template-areas:
+  "sub-sct1 sub-sct2"
+  "sub-sct3 sub-sct3"
+}
+.sub-sct1 {
+grid-area: sub-sct1;
+}
+.sub-sct2 {
+grid-area: sub-sct2;
+}
+.sub-sct3 {
+grid-area: sub-sct3;
+}
+/* ------- Fith Box ------*/
+.fifth-box {
+  grid-gap: 25px;
+  grid-template-columns: none;
+  grid-template-areas:
+  "box1 box2 box3"
+  "box4 box2 box5"
+}
+.box1 {
+  grid-area: box1;
+}
+.box2 {
+  grid-area: box2;
+}
+.box3 {
+  grid-area: box3;
+}
+.box4 {
+  grid-area: box4;
+}
+.box5 {
+  grid-area: box5;
+}
+.c-logo4 {
+  align-self: flex-end;
+}
+/*------- Sixth Box --------*/
+.sixth-box {
+  width: 60%;
+}
+/* --------- Footer --------*/
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
+}
+.social {
+width: auto;
+}
+.social-img1, .social-img2, .social-img3 {
+  margin-right: 16px;
+
+}
+.social-img1 {
+  margin-left: 30px;
+}
+}
